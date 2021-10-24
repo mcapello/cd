@@ -2,5 +2,5 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
-spec:
+#spec:
   #replicas: 5
