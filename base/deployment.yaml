@@ -16,7 +16,7 @@ spec:
       - name: nginx
         #image: nginx:1.19.5
         #image: nginxdemos/hello
-        image: caperiver/prueba:1
+        image: caperiver/prueba:2
         imagePullPolicy: Always
         ports:
         - containerPort: 80
