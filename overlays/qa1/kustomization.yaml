@@ -3,8 +3,11 @@ kind: Kustomization
 namespace: qa1
 commonLabels:
   common: prueba-cd-argo
-bases:
-- ../../base
 patchesStrategicMerge:
 - deployment_patch.yaml
-
+resources:
+- ../../base
+images:
+- name: caperiver/prueba
+  newName: caperiver/prueba
+  newTag: "3"
